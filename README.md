@@ -1,7 +1,7 @@
 # Stock Market Reactions to Trump’s “Tariff” Mentions
 
 ## Motivation
-Political statements — especially those from influential figures like Donald Trump — often trigger short-term volatility in financial markets. This project explores how mentions of *“tariffs”* by U.S. President Donald Trump correlate with fluctuations in U.S. stock market indices, aiming to understand the impact of political rhetoric on investor sentiment and market behavior.
+Political statements from influential figures like Donald Trump often trigger short-term volatility in financial markets. This project explores how mentions of *“tariffs”* by U.S. President Donald Trump correlate with fluctuations in U.S. stock market indices, aiming to understand the impact of political rhetoric on investor sentiment and market behavior.
 
 ## Data Sources
 - **Trump Tweets Dataset:** Historical tweets from @realDonaldTrump, publicly available via the [Trump Twitter Archive](https://www.thetrumparchive.com/) or [Kaggle datasets](https://www.kaggle.com/).

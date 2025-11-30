@@ -89,5 +89,5 @@ This indicates that tariff-related tweets alone did not produce measurable impac
 - Consider testing market **volatility** instead of daily returns.
 - Explore time windows around tweets (±1 day, intraday effects).
 - Add clearer visualizations and prepare for the final report.
-- Optionally analyze sector-specific impacts (industrials, tech, consumer goods).
+
 

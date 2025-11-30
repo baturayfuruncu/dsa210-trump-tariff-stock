@@ -48,3 +48,46 @@ Political statements from influential figures like Donald Trump often trigger sh
 - Tweets’ time zones may not align perfectly with market hours.
 - Difficult to isolate tariff mentions from concurrent political or economic factors.
 - Future work: expand to compare Trump’s tweets with Biden’s trade-related statements for longitudinal analysis.
+
+- ## Progress Update — 30 November 2025
+
+### Data Collection (Completed)
+- Collected daily S&P 500 data from Yahoo Finance using the `yfinance` library.
+- Loaded the Trump tweet archive (`realDonaldTrump_in_office.csv`), covering tweets during his first presidency (2017–2021).
+- Filtered tweets to include only the official presidency window (Jan 20, 2017 – Jan 20, 2021).
+- Extracted all tweets containing the keyword **"tariff"**.
+- Identified that tariff-related tweets occurred on **21 trading days** during the presidency.
+
+### Data Cleaning & Processing (Completed)
+- Converted and standardized timestamp data.
+- Normalized daily indices for clean alignment with financial data.
+- Aggregated tariff-related tweet counts on a per-day basis.
+- Mapped tariff-tweet days onto S&P 500 daily returns to build a unified dataset.
+
+### Exploratory Data Analysis (Completed)
+- Visualized tariff tweet activity over time.
+- Plotted tweet counts versus daily S&P 500 returns.
+- Compared return distributions for tweet vs non-tweet days.
+
+### Hypothesis Testing (Completed)
+**Research question:**  
+*Do tariff-related tweets by Donald Trump coincide with significant changes in S&P 500 daily returns?*
+
+**Method:**  
+Two-sample t-test comparing:
+- Returns on tariff-tweet days (21 days)
+- Returns on non-tweet days (984 days)
+
+**Results:**
+- **t-statistic:** -0.542  
+- **p-value:** ≈ 0.593  
+- **Conclusion:** No statistically significant difference in average daily returns between tweet and non-tweet days.
+
+This indicates that tariff-related tweets alone did not produce measurable impacts on *broad* S&P 500 daily returns during 2017–2021.
+
+### Next Steps
+- Consider testing market **volatility** instead of daily returns.
+- Explore time windows around tweets (±1 day, intraday effects).
+- Add clearer visualizations and prepare for the final report.
+- Optionally analyze sector-specific impacts (industrials, tech, consumer goods).
+

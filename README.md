@@ -49,7 +49,7 @@ Political statements from influential figures like Donald Trump often trigger sh
 - Difficult to isolate tariff mentions from concurrent political or economic factors.
 - Future work: expand to compare Trump’s tweets with Biden’s trade-related statements for longitudinal analysis.
 
-- ## Progress Update — 30 November 2025
+- ## - Progress Update — 
 
 ### Data Collection (Completed)
 - Collected daily S&P 500 data from Yahoo Finance using the `yfinance` library.

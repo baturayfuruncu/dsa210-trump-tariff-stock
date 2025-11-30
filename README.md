@@ -84,6 +84,17 @@ Two-sample t-test comparing:
 - **Conclusion:** No statistically significant difference in average daily returns between tweet and non-tweet days.
 
 This indicates that tariff-related tweets alone did not produce measurable impacts on *broad* S&P 500 daily returns during 2017–2021.
+## Use of AI Tools
+
+Portions of this project were completed with assistance from AI tools (ChatGPT). 
+AI support was used for:
+- debugging code,
+- clarifying errors,
+- verifying methodology,
+- organizing steps, and
+- refining explanations.
+
+All coding, analysis, data collection, and final decisions were performed by me.
 
 ### Next Steps
 - Consider testing market **volatility** instead of daily returns.

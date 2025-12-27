@@ -84,6 +84,17 @@ Two-sample t-test comparing:
 - **Conclusion:** No statistically significant difference in average daily returns between tweet and non-tweet days.
 
 This indicates that tariff-related tweets alone did not produce measurable impacts on *broad* S&P 500 daily returns during 2017–2021.
+
+## Interpretation and Discussion
+
+Although tariff-related tweets by Donald Trump attracted significant public and media attention during his first presidency, the results suggest that such tweets did not correspond to statistically significant changes in overall daily market returns. One possible explanation is that financial markets may have already anticipated changes in trade policy based on earlier announcements and economic information, which reduced the impact of individual tweets.
+
+Additionally, the S&P 500 is a diverse index that aggregates the performance of many sectors, which may dilute sector-specific reactions to trade policy rhetoric. Some industries, such as manufacturing or technology, may react more strongly to tariff-related news, but these effects may not appear clearly in a broad market index.
+
+Another important limitation is the relatively small number of tariff-tweet days (21 trading days), which reduces statistical power and makes it more difficult to detect subtle effects. 
+
+Overall, these findings suggest that tariff-related Twitter activity alone was not sufficient to consistently influence broad U.S. stock market performance, highlighting the importance of considering market expectations, policy context, and data granularity in financial impact studies.
+
 ## Use of AI Tools
 
 Portions of this project were completed with assistance from AI tools (ChatGPT). 

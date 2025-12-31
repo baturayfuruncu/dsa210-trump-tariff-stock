@@ -107,9 +107,12 @@ AI support was used for:
 
 All coding, analysis, data collection, and final decisions were performed by me.
 
-### Next Steps
-- Consider testing market **volatility** instead of daily returns.
-- Explore time windows around tweets (±1 day, intraday effects).
-- Add clearer visualizations and prepare for the final report.
+### Machine Learning Results and Interpretation
+
+A linear regression model was trained to predict daily market volatility, measured as the absolute return of the S&P 500, using tariff-related tweet frequency and trading volume as input features. The model achieved an R² of approximately 0.35 on the test set, indicating moderate explanatory power, which is reasonable given the volatile nature of daily financial data.
+
+The estimated coefficient for tariff-related tweet count was positive, suggesting that days with more tariff-related tweets are associated with higher predicted market volatility, even after controlling for overall market activity through trading volume. However, the magnitude of this effect is relatively small, indicating that tariff-related tweets alone are not a dominant factor for volatility.
+
+Overall, these results support the idea that while tariff-related Twitter activity may contribute to increased market uncertainty, its predictive power is limited and should be interpreted in the context of broader market dynamics.
 
 

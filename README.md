@@ -115,4 +115,9 @@ The estimated coefficient for tariff-related tweet count was positive, suggestin
 
 Overall, these results support the idea that while tariff-related Twitter activity may contribute to increased market uncertainty, its predictive power is limited and should be interpreted in the context of broader market dynamics.
 
+#### Robustness Check: Standardized Ridge Regression
+
+To account for differences in feature scale and to reduce potential multicollinearity, a standardized Ridge regression model was also applied. The Ridge model produced nearly identical performance metrics (R² ≈ 0.35) compared to the baseline linear regression, indicating that the results are robust to regularization and feature scaling.
+
+In the standardized model, trading volume remained the dominant predictor of market volatility, while tariff-related tweet count retained a small but positive coefficient. This suggests that tariff-related Twitter activity may contribute marginally to market uncertainty, but overall volatility is primarily driven by broader market activity.
 

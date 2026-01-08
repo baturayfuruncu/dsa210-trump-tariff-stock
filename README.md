@@ -95,18 +95,6 @@ Another important limitation is the relatively small number of tariff-tweet days
 
 Overall, these findings suggest that tariff-related Twitter activity alone was not sufficient to consistently influence broad U.S. stock market performance, highlighting the importance of considering market expectations, policy context, and data granularity in financial impact studies.
 
-## Use of AI Tools
-
-Portions of this project were completed with assistance from AI tools (ChatGPT). 
-AI support was used for:
-- debugging code,
-- clarifying errors,
-- verifying methodology,
-- organizing steps, and
-- refining explanations.
-
-All coding, analysis, data collection, and final decisions were performed by me.
-
 ### Machine Learning Results and Interpretation
 
 A linear regression model was trained to predict daily market volatility, measured as the absolute return of the S&P 500, using tariff-related tweet frequency and trading volume as input features. The model achieved an R² of approximately 0.35 on the test set, indicating moderate explanatory power, which is reasonable given the volatile nature of daily financial data.
@@ -120,4 +108,16 @@ Overall, these results support the idea that while tariff-related Twitter activi
 To account for differences in feature scale and to reduce potential multicollinearity, a standardized Ridge regression model was also applied. The Ridge model produced nearly identical performance metrics (R² ≈ 0.35) compared to the baseline linear regression, indicating that the results are robust to regularization and feature scaling.
 
 In the standardized model, trading volume remained the dominant predictor of market volatility, while tariff-related tweet count retained a small but positive coefficient. This suggests that tariff-related Twitter activity may contribute marginally to market uncertainty, but overall volatility is primarily driven by broader market activity.
+
+## Use of AI Tools
+
+Portions of this project were completed with assistance from AI tools (ChatGPT). 
+AI support was used for:
+- debugging code,
+- clarifying errors,
+- verifying methodology,
+- organizing steps, and
+- refining explanations.
+
+All coding, analysis, data collection, and final decisions were performed by me.
 
